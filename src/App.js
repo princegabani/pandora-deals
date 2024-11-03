@@ -14,7 +14,7 @@ import { InitAuthView } from './database/component/auth/auth';
 
 // ----------------------------------------------------------------------
 window.onload = () => {
-  InitAuthView()
+  // InitAuthView()
   // const uid = InitAuth.current_user()
 }
 

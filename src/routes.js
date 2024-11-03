@@ -4,7 +4,6 @@ import DashboardLayout from './layouts/dashboard';
 import SimpleLayout from './layouts/simple';
 //
 // import BlogPage from './pages/BlogPage';
-import RoughPage from "./pages/RoughPage";
 import LoginPage from './pages/LoginPage';
 import Page404 from './pages/Page404';
 // import ProductsPage from './pages/ProductsPage';
@@ -45,11 +44,6 @@ export default function Router() {
         { path: 'finance', element: <FinancePage /> },
         { path: 'transaction', element: <TransactionPage /> },
         { path: 'imagePosterApp', element: <ImagePosterApp /> },
-        // { path: 'products', element: <ProductsPage /> },
-        // { path: 'blog', element: <BlogPage /> },
-        // { path: 'profile', element: <ProfilePage /> },
-        { path: 'Rough', element: <RoughPage /> },
-        // { path: 'task', element: <TaskPage /> },
       ],
     },
     {
